@@ -21,7 +21,7 @@ const Header = () => {
           key={expand}
           expand={expand}
           style={{ textDecoration: "none" }}
-          className="bg-[#053b50ec] z-50 sticky top-0 shadow-md lg:px-6 sm:px-2 flex justify-center items-center h-16"
+          className="bg-[#053b50] z-50 sticky top-0 shadow-md lg:px-6 sm:px-2 flex justify-center items-center h-16"
         >
           <Container fluid>
             <div className="flex items-center gap-4">
@@ -33,7 +33,7 @@ const Header = () => {
               </button>
               <Navbar.Brand
                 href={"/"}
-                className="justify-self-center text-2xl text-white font-semibold"
+                className="justify-self-center text-[1.5rem] text-white font-semibold"
               >
                 <h1 className="font-sans">Opstra Options Analytics</h1>
               </Navbar.Brand>

@@ -1,6 +1,9 @@
 import React from "react";
 import Layout from "../Layout/Layout";
 import { PiWarningCircleBold } from "react-icons/pi";
+import Subscription from "../components/Subscription";
+import PlansTable from "../components/PlansTable";
+import Questions from "../components/Questions";
 
 const Plans = () => {
   return (
@@ -27,6 +30,9 @@ const Plans = () => {
             Signup
           </button>
         </div>
+        <Subscription />
+        <PlansTable />
+        <Questions />
       </div>
     </Layout>
   );

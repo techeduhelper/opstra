@@ -16,6 +16,8 @@ const OptionsAnalysis = () => {
       <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-8 lg:px-32 sm:px-4 w-full mt-8">
         {optionArray.map((op, index) => (
           <div
+            data-aos="flip-left"
+            data-aos-duration="1000"
             key={index}
             className="flex flex-col justify-center sm:mt-4 lg:mt-0 shadow-md"
           >
