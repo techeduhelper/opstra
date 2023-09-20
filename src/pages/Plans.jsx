@@ -11,16 +11,16 @@ const Plans = () => {
       <div
         data-aos="fade-up"
         data-aos-duration="1000"
-        className="lg:mx-24 sm:mx-4"
+        className="lg:mx-24 sm:mx-4 px-2"
       >
-        <div className="bg-white flex lg:flex-row sm:flex-col items-center lg:justify-center gap-4 text-xl border-2 py-3 lg:mt-16 sm:mt-5 rounded-lg px-4 lg:mx-24">
+        <div className="bg-white flex lg:flex-row sm:flex-col items-center lg:justify-center gap-4 text-xl border-2 py-3 lg:mt-16 sm:mt-5 rounded-lg px-4 lg:mx-20 sm:mx-0">
           <div className="flex gap-2 lg:items-center">
             <div>
-              <PiWarningCircleBold size={40} className="text-red-600" />
+              <PiWarningCircleBold size={40} className="text-red-500" />
             </div>
-            <h3 className="text-left">
+            <h3 className="text-left tracking-wide">
               If you are{" "}
-              <span className="text-red-600 font-medium">
+              <span className="text-red-500 font-medium">
                 not a registered opstra user
               </span>
               , please sign up before making the subscription payment

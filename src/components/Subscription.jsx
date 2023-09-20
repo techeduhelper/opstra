@@ -5,7 +5,7 @@ const Subscription = () => {
   return (
     <>
       <div className="flex mt-16 flex-col lg:gap-28 sm:gap-10">
-        <h1 className="lg:text-5xl sm:text-3xl font-bold font-[PT+Serif] text-center">
+        <h1 className="lg:text-5xl sm:text-3xl font-bold font-[PT+Serif] text-center mx-4">
           We’ve got a strategy that’s ideal for you
         </h1>
         <div>
@@ -13,7 +13,7 @@ const Subscription = () => {
             <div className="flex flex-col justify-center items-center lg:gap-6 sm:gap-4">
               <div
                 data-aos="zoom-out"
-                className="border-4 border-gray-400 shadow-sm rounded-md flex px-4 py-4"
+                className="border-4 border-gray-400 shadow-sm rounded-md flex px-4 py-4 bg-white"
               >
                 <div className="flex flex-col gap-2">
                   <h1 className="text-lg font-bold">BASIC PLAN</h1>
@@ -33,7 +33,7 @@ const Subscription = () => {
             <div className="flex flex-col justify-center items-center lg:gap-6 sm:gap-4">
               <div
                 data-aos="zoom-out"
-                className=" relative border-4 border-[#053b50ec] shadow-sm rounded-md flex px-4 py-4 xl:h-[12rem] sm:h-auto"
+                className=" relative border-4 border-[#053b50ec] shadow-sm rounded-md flex px-4 py-4 xl:h-[12rem] sm:h-auto bg-white"
               >
                 <div className=" absolute rounded-full bg-[#053b50] top-0 -mt-4 -mr-4 right-0 p-[0.1rem]">
                   <TiTick size={30} className="text-white" />
@@ -51,7 +51,7 @@ const Subscription = () => {
                   </p>
                 </div>
               </div>
-              <button className="py-2 lg:px-4 sm:px-5 transition-colors bg-[#053b50ec] border active:bg-[#3b748aec] font-normal border-green-700 text-white rounded-lg hover:bg-[#1c343eec] disabled:opacity-50 flex justify-center items-center shadow-sm font-[poppins]">
+              <button className="py-2 lg:px-4 sm:px-5 transition-colors bg-[#053b50ec] border active:bg-[#3b748aec] font-normal border-green-700 text-white rounded-lg hover:bg-[#1c343eec] disabled:opacity-50 flex justify-center items-center shadow-xl font-[poppins]">
                 Subscribe
               </button>
             </div>
@@ -59,7 +59,7 @@ const Subscription = () => {
             <div className="flex flex-col justify-center items-center lg:gap-6 sm:gap-4 ">
               <div
                 data-aos="zoom-out"
-                className="relative border-4 border-gray-400 shadow-sm rounded-md flex px-4 py-4 xl:h-[14rem] sm:h-auto"
+                className="relative border-4 border-gray-400 shadow-sm rounded-md flex px-4 py-4 xl:h-[14rem] sm:h-auto bg-white"
               >
                 <div className=" absolute rounded-full bg-[#053b50] top-0 -mt-6 -mr-4 right-0 p-[0.5rem] text-white font-semibold px-3">
                   SAVE UPTO 23%
@@ -77,15 +77,15 @@ const Subscription = () => {
                   </p>
                 </div>
               </div>
-              <button className="py-2 lg:px-4 sm:px-5 transition-colors bg-[#053b50ec] border active:bg-[#3b748aec] font-normal border-green-700 text-white rounded-lg hover:bg-[#1c343eec] disabled:opacity-50 flex justify-center items-center shadow-sm font-[poppins]">
-                Subscribe
+              <button class="custom-btn btn-11">
+                Subscribe<div class="dot"></div>
               </button>
             </div>
 
             <div className="flex flex-col justify-center items-center lg:gap-6 sm:gap-4 ">
               <div
                 data-aos="zoom-out"
-                className="relative border-4 border-gray-400 shadow-sm rounded-md flex px-4 py-4 xl:h-[16rem] sm:h-auto"
+                className="relative border-4 border-gray-400 shadow-sm rounded-md flex px-4 py-4 xl:h-[16rem] sm:h-auto bg"
               >
                 <div className=" absolute rounded-full bg-[#053b50] top-0 -mt-6 -mr-4 right-0 p-[0.5rem] px-4 text-white font-semibold">
                   SAVE UPTO 30%
@@ -103,8 +103,8 @@ const Subscription = () => {
                   </p>
                 </div>
               </div>
-              <button className="py-2 lg:px-4 sm:px-5 transition-colors bg-[#053b50ec] border active:bg-[#3b748aec] font-normal border-green-700 text-white rounded-lg hover:bg-[#1c343eec] disabled:opacity-50 flex justify-center items-center shadow-sm font-[poppins]">
-                Subscribe
+              <button class="custom-btn btn-7 rounded-full">
+                <span>Subscribe</span>
               </button>
             </div>
           </div>

@@ -5,26 +5,26 @@ import { BsCheckLg, BsQuestionCircleFill } from "react-icons/bs";
 const PlansTable = () => {
   return (
     <>
-      <div className="flex justify-center items-center flex-col lg:mt-16 sm:mt-10 mb-5 w-full">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        className="flex justify-center items-center flex-col lg:mt-16 sm:mt-10 mb-5 w-full px-2"
+      >
         <h1 className="text-xl font-normal text-center">
           All subscriptions are
           <span className="font-bold"> NON-REFUNDABLE</span>. Please
           <span className="font-bold text-[#053b50ec]"> Read FAQs </span>
           carefully before subscribing
         </h1>
-        <div
-          data-aos="fade-up"
-          data-aos-duration="1500"
-          className="w-full flex justify-center mt-5"
-        >
-          <table className="bg-white border-2 border-black w-full lg:mx-20 sm:mx-4">
+        <div className="flex justify-center mt-5 w-full px-2">
+          <table className="bg-white border-2 border-black w-full lg:mx-5 sm:mx-1">
             <thead>
               <tr className="bg-gray-200 border-2 border-gray-700">
                 <th className="border-2 border-black p-2" />
-                <th className="border-2 border-black p-2 text-center text-[#053b50ec] text-xl">
+                <th className="border-2 border-black p-2 text-center text-[#053b50ec] lg:text-xl sm:text-lg">
                   BASIC PLAN FEATURES
                 </th>
-                <th className="border-2 border-black p-2 text-center text-[#053b50ec] text-xl">
+                <th className="border-2 border-black p-2 text-center text-[#053b50ec] lg:text-xl sm:text-lg">
                   PREMIUM PLAN FEATURES
                 </th>
               </tr>
@@ -687,10 +687,12 @@ const PlansTable = () => {
             </tbody>
           </table>
         </div>
-        <h1 className="text-xl font-medium mt-4 text-center">
-          *Live data here refers to 1-min data + few seconds delay taken for IV
-          & greeks calculations.
-        </h1>
+        <div className="mx-1 px-1">
+          <h1 className="text-xl font-medium mt-4 text-center">
+            *Live data here refers to 1-min data + few seconds delay taken for
+            IV & greeks calculations.
+          </h1>
+        </div>
       </div>
     </>
   );

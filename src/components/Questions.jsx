@@ -3,15 +3,11 @@ import React from "react";
 const Questions = () => {
   return (
     <>
-      <div
-        data-aos="fade-left"
-        data-aos-duration="1000"
-        className="flex bg-white mb-5 pt-4 mx-3 flex-col rounded-sm px-2"
-      >
+      <div className="flex bg-white mb-5 pt-4 mx-1 flex-col rounded-sm px-4">
         <h1 className="text-2xl text-center font-bold">
           Frequently Asked Questions
         </h1>
-        <ol className="list-decimal text-left px-5 text-lg font-medium font-[poppins] mt-5 text-gray-700">
+        <ol className="list-decimal text-left lg:px-5 sm:px-2 text-lg font-medium font-[poppins] mt-5 text-gray-700">
           <li>Are the data updates real-time?</li>
           <h1 className="text-[1.1rem] font-normal mt-2 font-sans mb-6 text-left tracking-wide">
             A: Our data feed is 1-minute data plus few seconds of delay due to
